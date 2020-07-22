@@ -3,12 +3,41 @@ html body
     height: 100%;
 }
 
+h1{
+    color: rgb(225, 221, 143);
+}
+.lead
+{
+    color: rgb(224, 251, 252);
+}
 .container img{
     height: 200px;
     width: 200px;
 }
 
-.nav-item
+.navbar-nav .nav-item
 {
     font-size: 20px;
+}
+.navbar-nav .nav-item .nav-link
+{
+    color: rgb(225, 221, 143);
+}
+.navbar-nav .nav-item .nav-link:hover
+{
+    color: rgb(0, 123, 255);
+}
+#name
+{
+    color: rgb(0, 123, 255);
+}
+.fa{
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+.fa:hover{
+    opacity: 0.7;
 }

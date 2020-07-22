@@ -26,8 +26,7 @@
 
     <!-- CSS & JS -->
     <link rel="stylesheet" href="CSS/style.css">
-    <!-- <link rel="stylesheet" href="CSS/font-awesome.min.css"> -->
-    <!-- <script src="https://use.fontawesome.com/1f8f29e4be.js"></script> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <title>Kailash Tuta</title>
 </head>
@@ -36,7 +35,7 @@
 
     <Nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
         <!-- <nav class="navbar-text">Kailash Tuta</nav> -->
-        <a href="/index.html" class="navbar-brand">Kailash Tuta</a>
+        <!-- <a href="/index.html" class="navbar-brand">Kailash Tuta</a> -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span
                 class="navbar-toggler-icon"></span>
@@ -56,13 +55,20 @@
         </div>
     </Nav>
 
-    <div class="jumbotron" id="about">
+    <div class="jumbotron bg-dark" id="about">
         <br>
         <br>
+        <ul class="list-unstyled float-right">
+            <li> <a href="#" class="fa fa-facebook"></a> </li>
+            <li> <a href="#" class="fa fa-twitter"></a> </li>
+            <li> <a href="#" class="fa fa-linkedin"></a> </li>
+            <li> <a href="#" class="fa fa-codepen"></a> </li>
+            <li> <a href="#" class="fa fa-github"></a> </li>
+        </ul>
         <div class="container">
             <img src="img/profile-image.png" class="rounded-circle mx-auto d-block img-fluid" alt="profile-image">
-            <h1 class="display-3 text-center">HI! I'm <small>Kailash</small></h1>
-            <p class="lead text-center">I am a FrontEnd web developer</p>
+            <h1 class="display-3 text-center">HI! I'm <strong id="name">Kailash</strong></h1>
+            <p class="lead text-center">I am a Front-end web developer</p>
         </div>
     </div>
 
