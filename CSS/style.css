@@ -7,6 +7,7 @@ h1 {
 }
 
 .lead {
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
     color: rgb(224, 251, 252);
 }
 
@@ -29,6 +30,7 @@ h1 {
 }
 
 .navbar-nav .nav-item .nav-link {
+    font-family: 'Russo One', sans-serif;
     color: rgb(225, 221, 143);
 }
 
@@ -37,6 +39,7 @@ h1 {
 }
 
 #name {
+    /* font-family: 'Montserrat', sans-serif; */
     color: rgb(0, 123, 255);
 }
 
@@ -59,11 +62,20 @@ h1 {
 .card .card-body a {
     text-decoration: none;
 }
-.card .card-img-top
-{
+
+.card .card-body .card-title {
+    font-family: 'Anonymous Pro', monospace;
+}
+
+.card .card-body .card-text {
+    font-family: 'IBM Plex Serif', serif;
+}
+
+.card .card-img-top {
     height: 208px;
     width: 348px;
 }
+
 .project-container .row {
     margin-bottom: 20px;
 }
@@ -73,5 +85,14 @@ h1 {
 }
 
 .contact-me p {
-    color: rgb(224, 251, 252);
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    color: rgb(225, 221, 143);
+}
+
+h2 {
+    font-family: 'Russo One', sans-serif;
+}
+
+.contact-me .footer-copyright {
+    font-family: 'Signika', sans-serif;
 }
