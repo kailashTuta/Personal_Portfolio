@@ -1,3 +1,7 @@
+* {
+    scroll-behavior: smooth;
+}
+
 html body {
     height: 100%;
 }
@@ -47,6 +51,10 @@ h1 {
     display: none;
 }
 
+#project-title {
+    text-decoration: underline dashed rgb(0, 123, 255);
+}
+
 .fa {
     padding: 30px;
     font-size: 30px;
@@ -78,6 +86,23 @@ h1 {
 
 .project-container .row {
     margin-bottom: 20px;
+}
+
+.project-container .row .card:hover {
+    box-shadow: 5px 10px 8px #888888;
+    transition: box-shadow 800ms;
+    transition-timing-function: box-shadow ease-in-out;
+}
+
+.project-container .row .card .text-link {
+    color: rgb(0, 123, 255);
+}
+
+.project-container .row .card .text-link:hover {
+    background-color: rgb(0, 123, 255);
+    color: white;
+    padding: 5px;
+    border-radius: 25px;
 }
 
 .mail {
