@@ -8,6 +8,7 @@ html body {
 
 h1 {
     color: rgb(225, 221, 143);
+    font-family: 'Open Sans', sans-serif;
 }
 
 .lead {
@@ -43,7 +44,7 @@ h1 {
 }
 
 #name {
-    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Montserrat', sans-serif;
     color: rgb(0, 123, 255);
 }
 
@@ -120,4 +121,10 @@ h2 {
 
 .contact-me .footer-copyright {
     font-family: 'Signika', sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+    .text-responsive {
+        font-size: 40px;
+    }
 }
